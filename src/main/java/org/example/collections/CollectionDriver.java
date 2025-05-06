@@ -138,6 +138,14 @@ public class CollectionDriver
             System.out.println(productMap.get(key));
         }
 
+        Map<Long,Product> linkedProductMap = new TreeMap<>();//HashMap<>();//LinkedHashMap<>();
+        linkedProductMap.put(99l,new Product(99l,"Laptop",55000.0));
+        linkedProductMap.put(9l,new Product(9l,"Laptop 2",33000.0));
+        linkedProductMap.put(1l,new Product(1l,"Laptop 99",22000.0));
+        linkedProductMap.put(2l,new Product(2l,"Laptop 99",22000.0));
+        System.out.println(linkedProductMap);
+
+
 
     }
 }

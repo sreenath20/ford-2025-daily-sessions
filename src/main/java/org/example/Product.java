@@ -49,6 +49,14 @@ public class Product implements Comparable<Product>{
         this.price = price;
     }
 
+    public Float getDiscount() {
+        return discount;
+    }
+
+    public void setDiscount(Float discount) {
+        this.discount = discount;
+    }
+
     @Override
     public String toString() {
         return "Product{" +
