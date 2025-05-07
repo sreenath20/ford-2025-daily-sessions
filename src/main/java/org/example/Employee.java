@@ -28,6 +28,13 @@ public class Employee {
         this.salary = salary;
     }
 
+    public Employee(String id, String name, Double salary, LocalDate joinDate) {
+        this.id = id;
+        this.name = name;
+        this.salary = salary;
+        this.joinDate = joinDate;
+    }
+
     public String getId() {
         return id;
     }
